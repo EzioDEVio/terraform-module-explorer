@@ -30,16 +30,14 @@ Terraform Module Explorer is a web-based application designed to streamline the 
    git clone https://github.com/theslash84/terraform-module-explorer.git
 **Navigate to the Project Directory**:
 
-  ```bash
 cd terraform-module-explorer
 **Build and Run the Docker Container**:
 
-  ```bash
   docker build -t terraform-module-explorer .
   docker run -p 3000:3000 terraform-module-explorer
 
 ## Developer
-This application was developed by [Your Name], a passionate Cloud/DevOps engineer with expertise in infrastructure automation and a keen interest in enhancing developer tools and workflows.
+This application was developed by Mohammed, a passionate Cloud/DevOps engineer with expertise in infrastructure automation and a keen interest in enhancing developer tools and workflows.
 
 ## Contributions
 While I am the sole developer of Terraform Module Explorer, contributions, suggestions, and feedback are always welcome. Feel free to fork the repository, submit pull requests, or reach out with ideas to improve the application.
