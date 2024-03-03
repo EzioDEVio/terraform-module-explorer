@@ -35,14 +35,14 @@ cd terraform-module-explorer
 **Build and Run the Docker Container**:
 
   ```bash
-docker build -t terraform-module-explorer .
-docker run -p 3000:3000 terraform-module-explorer
+  docker build -t terraform-module-explorer .
+  docker run -p 3000:3000 terraform-module-explorer
 
-Developer
+## Developer
 This application was developed by [Your Name], a passionate Cloud/DevOps engineer with expertise in infrastructure automation and a keen interest in enhancing developer tools and workflows.
 
-Contributions
+## Contributions
 While I am the sole developer of Terraform Module Explorer, contributions, suggestions, and feedback are always welcome. Feel free to fork the repository, submit pull requests, or reach out with ideas to improve the application.
 
-License
+##License
 This project is licensed under the MIT License - see the LICENSE file for details.
