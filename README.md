@@ -32,12 +32,13 @@ Terraform Module Explorer is a web-based application designed to streamline the 
 
 cd terraform-module-explorer
 **Build and Run the Docker Container**:
-
+  ```
   docker build -t terraform-module-explorer .
+  ```
+
   ```bash
   docker run -p 3000:3000 terraform-module-explorer
-
- ```
+   ```
 
 
 
