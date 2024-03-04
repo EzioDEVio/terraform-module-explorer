@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terraform Module Explorer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <!-- Trigger/Open The Modals -->
+    <a href="javascript:void(0)" id="aboutBtn">About Me</a>
+    <a href="javascript:void(0)" id="docBtn">Documentation</a>
+    <a href="javascript:void(0)" id="contactBtn">Contact Us</a>
+    <input type="text" id="searchInput" placeholder="Search modules..." oninput="searchModules()" class="search-bar">
+  </nav>
+
+  <header>
+    <h1>Terraform Module Explorer</h1>
+    <!-- Optional: Include tech logos here if they should be part of the header, yes indeed -->
+    <div class="tech-logos">
+      <img src="images/docker-logo.png" alt="Docker" class="tech-logo">
+      <img src="images/kubernetes-logo.png" alt="Kubernetes" class="tech-logo">
+      <img src="images/GitHub-logo.png" alt="Kubernetes" class="tech-logo">
+      <img src="images/ansible-logo.png" alt="Kubernetes" class="tech-logo">
+      <!-- Additional logos can be placed here -->
+    </div>
+</header>
+
+  <main>
+    <section class="provider-section">
+      <button class="collapsible">
+        <img src="images/aws-logo.png" alt="AWS Logo" class="provider-logo"> AWS Modules
+      </button>
+      <div class="content">
+        <ul id="aws-modules" class="module-list"></ul>
+      </div>
+    </section>
+
+    <section class="provider-section">
+      <button class="collapsible">
+        <img src="images/azure-logo.png" alt="Azure Logo" class="provider-logo"> Azure Modules
+      </button>
+      <div class="content">
+        <ul id="azurerm-modules" class="module-list">
+          <li>Static Azure Module Test</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="provider-section">
+      <button class="collapsible">
+        <img src="images/google-logo.png" alt="Google Cloud Logo" class="provider-logo"> Google Cloud Modules
+      </button>
+      <div class="content">
+        <ul id="google-modules" class="module-list"></ul>
+      </div>
+    </section>
+  </main>
+<!-- About Me Modal -->
+<div id="aboutModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>An adept Cloud/DevOps Engineer with a fervent enthusiasm for system engineering, I am deeply passionate about the technology landscape. My expertise spans Docker, Kubernetes, CI/CD pipelines, and AI/ML, underpinned by a commitment to fostering innovation and efficiency in technology environments.</p>
+  </div>
+</div>
+
+<!-- Documentation Modal -->
+<div id="docModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Terraform Module Explorer is an interactive resource for discovering a wide selection of integrations (providers), configuration packages (modules), and security rules (policies) for use with Terraform. The Terraform Module Explorer includes solutions developed by HashiCorp, third-party vendors, and our Terraform community. Our goal with the Registry is to provide plugins to manage any infrastructure API, pre-made modules to quickly configure common infrastructure components, and examples of how to write quality Terraform code. </p>
+  </div>
+</div>
+
+<!-- Contact Us Modal -->
+<div id="contactModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>You can reach me @moahmmed.k.aldaraji@hotmial.com...</p>
+  </div>
+</div>
+  <footer class="footer">
+    <p>&copy; 2023 Mohammed. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
