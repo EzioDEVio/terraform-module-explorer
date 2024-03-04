@@ -37,6 +37,8 @@ cd terraform-module-explorer
   ```bash
   docker run -p 3000:3000 terraform-module-explorer
 
+ ```
+
 
 
 ## Developer
