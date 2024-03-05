@@ -1,5 +1,5 @@
 
-# Specify the base image
+# Specify the docker base image  
 FROM node:14
 
 # Set the working directory in the container
