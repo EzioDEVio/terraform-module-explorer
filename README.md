@@ -40,7 +40,9 @@ Once the build completes, summon your application into the realm of accessibilit
 ```
 docker run -p 3000:3000 terraform-module-explorer
 ```
+2. **Pull the existing docker image:**
 
+   There is ready built docker image of the app you can access through the packages
 👨‍💻 Developer
 Crafted with passion by Mohammed, an aficionado of cloud architecture and a maestro of DevOps practices. His quest is to streamline the developer's journey and tooling experience. 🌟
 
